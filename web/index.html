@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>Alpha Read 阿尔法阅读网</title>
+</head>
+<body onload="loadbooks(this)">
+    <div class="body-parent-container"></div>
+    <div class="head-parent-container">
+        <p id="A" class="head-tab-paragraph" onclick="loadbooks(this)">中国文学</p>
+        <p id="D" class="head-tab-paragraph" onclick="loadbooks(this)">外国文学</p>
+        <p id="B" class="head-tab-paragraph" onclick="loadbooks(this)">古籍精选</p>
+        <p id="C" class="head-tab-paragraph" onclick="loadbooks(this)">专业书籍</p>
+        <p id="E" class="head-tab-paragraph" onclick="loadbooks(this)">网文精选</p>
+    </div>
+    <div id="container_search" onclick="openSearch(this)">
+        <p id="paragraph_search">搜索</p>
+    </div>
+    <div style="position: fixed;border-radius: 21px;background-color: #f0a54d;bottom: 30px;width: 100px;left:
+    calc(50% - 50px);" onclick='onloadbooks()'>
+        <p id="paragraph_load_more" style="color: #ffffff;margin: 10px;font-size: 15px;text-align: center;">加载更多</p>
+    </div>
+    <div style="position: fixed; background-color: #eeeeee;bottom: 0;right: 0;width: 100%">
+        <p style="font-size: 10px;text-align: center;margin: 0">到公众号"沉浸阅读 Open Reading"或Q群963269534，说出你想要的书</p>
+    </div>
+</body>
+</html>

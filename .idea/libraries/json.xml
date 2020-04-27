@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="json">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/develop/lib/server/json-20170516.jar!/" />
+      <root url="jar://$USER_HOME$/develop/lib/server/flexmark-0.50.18.jar!/" />
+      <root url="jar://$USER_HOME$/develop/lib/server/c3p0-oracle-thin-extras-0.9.5.2.jar!/" />
+      <root url="jar://$USER_HOME$/develop/lib/server/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$USER_HOME$/develop/lib/server/mysql-connector-java-8.0.17.jar!/" />
+      <root url="jar://$USER_HOME$/develop/lib/server/mchange-commons-java-0.2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

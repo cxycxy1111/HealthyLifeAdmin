@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>正在加载...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body onload="onRecieveChapterLoad()">
+    <div class="body-parent-container-chapter"></div>
+    <div class="body-parent-container-chapter-list"></div>
+    <div id="head-parent-container">
+      <p id="chapter_name" class="head-tab-paragraph" onclick="loadImportantNews()">正在加载...</p>
+    </div>
+    <div class="foot-parent-container">
+      <div class="foot-cointainer" id="foot-previous-page"
+           onclick="jumptochapter(this)"><p class="paragraph-foot">前一章节</p></div>
+      <div class="foot-cointainer" id="foot-show-index"
+           onclick="showchapteralert(this)"><p class="paragraph-foot" id="paragraph-show-index">查看目录</p></div>
+      <div class="foot-cointainer" id="foot-next-page" onclick="jumptochapter(this)"><p class="paragraph-foot">后一章节</p></div>
+    </div>
+  </body>
+</html>

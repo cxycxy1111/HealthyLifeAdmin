@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Microsoft Yahei", "PingFangSC-Regular";
+}
+
+.left-div-container {
+    display: inline-block;
+    float: left;
+    background-color: #535353;
+    width: 100px;
+    height: 100%;
+}
+
+.right-div-container {
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    width: calc(100% - 340px);
+}
+
+.center-div-container {
+    display: inline-block;
+    margin-bottom: 0;
+    background-color: #efefef;
+    width: 200px;
+    height: 100%;
+}
+
+.sub-div-container {
+    display: block;
+    margin: 0;
+    padding: 16px;
+}
+
+.p-left-container {
+    color: #ffffff;
+    display: inline-block;
+    margin: 0;
+}
+
+.p-center-container {
+    color: #000000;
+    display: inline-block;
+    margin: 0;
+}

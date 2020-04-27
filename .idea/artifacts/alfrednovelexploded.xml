@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="alfrednovelexploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/alfrednovelexploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HLAdmin/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HLAdmin" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="json" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
